@@ -15,8 +15,8 @@ const AuthHeader = () => {
         <div className={styles.headerAuthPage}>
           <Logo src={`${CONSTANTS.STATIC_IMAGES_PATH}logo.png`} alt="logo" />
           <div className={styles.linkAuthContainer}>
-            <Link to={isLoginPage ?"/registration" : "/login"} style={{ textDecoration: 'none' }}>
-              <span>{isLoginPage ? 'Signup' : 'Login'}</span>
+            <Link to={isLoginPage ?"/registration" : "/login"}>
+              <button  className={styles.registerBtn} >{isLoginPage ? 'Signup' : 'Login'}</button>
             </Link>
           </div>
         </div>

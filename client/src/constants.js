@@ -1,6 +1,6 @@
 const env = process.env.NODE_ENV || 'development';
 const serverIP = 'localhost';
-const serverPort = 5000;
+const serverPort = 9999;
 export default {
   CUSTOMER: 'customer',
   CREATOR: 'creator',
@@ -34,6 +34,62 @@ export default {
     REGISTER: 'REGISTER',
     LOGIN: 'LOGIN',
   },
+  HEADER_ITEMS: [
+    {
+      title: 'Name Ideas',
+      items: [
+        'Beauty',
+        'Consulting',
+        'E-Commerce',
+        'Fashion & Clothing',
+        'Finance',
+        'Real Estate',
+        'Tech',
+        'More Categories'
+      ]
+    },
+    {
+      title: 'Contests',
+      items: [
+        'How It Works',
+        'Pricing',
+        'Agency Service',
+        'Active Contests',
+        'Winners',
+        'Leaderboard',
+        'Become A Creative'
+      ]
+    },
+    {
+      title: 'Our Work',
+      items: [
+        'Names',
+        'Taglines',
+        'Logos',
+        'Testimonials'
+      ]
+    },
+    {
+      title: 'Names For Sale',
+      items: [
+        'Popular Names',
+        'Short Names',
+        'Intriguing Names',
+        'Names By Category',
+        'Visual Name Search',
+        'Sell Your Domains'
+      ]
+    },
+    {
+      title: 'Blog',
+      items: [
+        'Ultimate Naming Guide',
+        'Poetic Devices In Business Naming',
+        'Crowded Bar Theory',
+        'All Articles'
+      ]
+    }
+  ],
   HEADER_ANIMATION_TEXT: [
     'a Company',
     'a Brand',
